@@ -97,8 +97,10 @@
 <template>
 	<main class="pt-1">
     <HeaderHome/>
+	<br>
     <section class="mt-16">
       <Services />
+	  <br>
     </section>
 		<BalanceCard />
     <section>
