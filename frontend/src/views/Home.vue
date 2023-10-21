@@ -131,6 +131,7 @@ import HeaderHome from '@/components/HeaderHome.vue'
 import BalanceCard from '@/components/BalanceCard.vue'
 import axios from 'axios';
 import Services from "@/components/Services.vue";
+import TransactionMenu from '../views/TransactionMenu.vue';
 
 const userInput = ref("");
 const messages = ref([]);
