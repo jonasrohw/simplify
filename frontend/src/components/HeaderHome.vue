@@ -5,18 +5,18 @@
 				<span>
 					<img src="/avatar.jpg" class="rounded-full" width="50" />
 				</span>
-				<div class="text-gray-300">
+				<div class="text-white">
 					<p class="font-semibold text-xl">{{ fullname }}</p>
 					<small class="font-medium text-sm">Hey, good morning</small>
 				</div>
 			</div>
 		</template>
 		<template v-slot:end>
-			<div class="text-lg text-gray-300">
+			<div class="text-lg text-white">
 				<span class="mr-5 relative active:scale-95 duration-300" @click="navigate('Notifications')">
 					<span
 						style="width:20px; height:20px" 
-						class="bg-red-500 text-gray-300 grid place-items-center absolute left-1 -top-3 text-xs rounded-full">{{ amountNotif.length}}</span>
+						class="bg-red-500 text-white grid place-items-center absolute left-1 -top-3 text-xs rounded-full">{{ amountNotif.length}}</span>
 					<i class="fa fa-bell"></i>
 				</span>
 				<i @click="showFloatingBtn = !showFloatingBtn" class="relative fa fa-ellipsis-h">

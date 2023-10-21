@@ -24,18 +24,21 @@
 }
 
 .chatbox {
-  margin-top: 5vh;
-  border: 0.5px solid #e0e0e0;
+  margin-top: 3vh;
+  border: 2px solid #e0e0e0;
   padding: 10px;
   height: 55vh;
   overflow-y: auto;
-  border-radius: 0.5vw;
+  /* border-radius: 0.5vw 0.6vw 0.8vw 1vw; */
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 0.75)
 }
 .chat-interface {
   display: flex;
   align-items: stretch;
-  margin-top: 10px;
+  margin-top: 15px;
 }
+
 .chat-input {
   flex-grow: 1;
   padding: 10px;
