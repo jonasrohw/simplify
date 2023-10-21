@@ -7,9 +7,9 @@ h1 {
 
 <template>
   <main class="w-full mx-auto bg-gradient-to-r from-amber-500 to-amber-400 ring-0 ring-amber-600 px-1 py-5 rounded-xl flex gap-4 items-start justify-evenly">
-	<p><i class="fa fa-arrow-left" style="font-size:60px;"></i><br>
-		Outgoing</p>
-	
+
+	<a href="/transaction" class="btn btn-info" role="button">	<p><i class="fa fa-arrow-left" style="font-size:60px;"></i><br>
+		Outgoing</p></a>
 		<section>
 			<!-- <p class="text-lg">Balance</p> -->
 			<h1>IBAN XXXXXXXXXXXXX</h1>
@@ -30,7 +30,7 @@ h1 {
 				<span>{{ balances.points }}</span>
 			</section>
 		</section> -->
-	</main>
+			</main>
 </template>
 
 <script setup>
